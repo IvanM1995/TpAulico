@@ -19,6 +19,14 @@ public class Cartas {
         
     }
 
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public void setPalo(String palo) {
+        this.palo = palo;
+    }
+
     public int getNumero() {
         return numero;
     }
@@ -30,6 +38,6 @@ public class Cartas {
     @Override
     public String toString(){
       
-      return numero +"de"+palo;
+      return "Carta" + numero +"de"+ palo;
    }
  }

@@ -9,11 +9,10 @@ package tpaulico;
  *
  * @author Ivan
  */
-public class TpAulico {
+class Carta {
 
-   
-    public static void main(String[] args) {
-      
+    Carta(int i, String espada) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
